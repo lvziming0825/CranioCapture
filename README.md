@@ -78,3 +78,20 @@ COLMAP is used to estimate camera poses and generate a sparse 3D reconstruction 
 <p align="center">
 Feature Extraction → Feature Matching → Camera Pose Estimation → Sparse Reconstruction
 </p>
+
+## Phase 4. 2D Gaussian Splatting Reconstruction
+
+The masked multi-view images and COLMAP-derived camera parameters are used as input for 2D Gaussian Splatting reconstruction.
+
+This phase is based on the official implementation of [2D Gaussian Splatting for Geometrically Accurate Radiance Fields](https://github.com/hbb1/2d-gaussian-splatting). Please refer to the original repository for installation details, environment configuration, and citation information.
+
+<p align="center">
+  <img src="docs/images/2dgs_reconstruction.jpg" width="90%">
+</p>
+
+<p align="center">
+Input → COLMAP cameras + masked RGB images
+</p>
+<p align="center">
+Output → 2DGS model, rendered views, and reconstructed mesh
+</p>
