@@ -20,14 +20,22 @@ A 5-second demonstration of the smartphone video acquisition procedure.
 
 <table border="0">
 <tr>
+<td width="75%" align="center">
+<b>Workflow</b>
+</td>
+
+<td width="25%" align="center">
+<b>5-second Demo</b>
+</td>
+</tr>
+
+<tr>
 
 <td width="75%" align="center" valign="middle">
-<b>Workflow</b><br><br>
 <img src="docs/images/data_acquisition.jpg" width="100%">
 </td>
 
 <td width="25%" align="center" valign="middle">
-<b>5-second Demo</b><br><br>
 <img src="docs/gifs/github_demo_5s.gif" width="200">
 </td>
 
