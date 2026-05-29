@@ -5,12 +5,11 @@ This repository provides the implementation and supplementary materials associat
 The workflow includes:
 
 1. Smartphone video acquisition
-2. Frame extraction
-3. Foreground masking
-4. COLMAP reconstruction
-5. 2D Gaussian Splatting
-6. Metric calibration
-7. Quantitative evaluation
+2. Frame extraction & Foreground masking
+3. COLMAP reconstruction
+4. 2D Gaussian Splatting
+5. Metric calibration
+6. Quantitative evaluation
 
 
 ## Phase 1. Smartphone Video Acquisition
@@ -43,7 +42,7 @@ A 5-second demonstration of the smartphone video acquisition procedure.
 </table>
 
 
-## Phase 2. Frame Extraction and Foreground Masking
+## Phase 2. Frame Extraction & Foreground Masking
 
 Video frames are extracted from the recorded smartphone video. A foreground matting model is subsequently applied to remove background structures and generate patient-specific facial masks.
 
