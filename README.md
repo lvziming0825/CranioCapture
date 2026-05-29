@@ -16,3 +16,8 @@ The workflow includes:
 ## 1. Smartphone Video Acquisition
 The patient is seated in a natural head position while a smartphone is moved along an inverse S-shaped trajectory around the face.
 
+A 5-second demonstration of the smartphone video acquisition procedure.
+
+🎥 Demo Video:
+
+[Watch the acquisition demo](docs/mp4/github_demo_5s.mp4)
