@@ -11,6 +11,31 @@ The workflow includes:
 5. Metric calibration
 6. Quantitative evaluation
 
+## Environment Setup
+
+### Python Dependencies
+
+This requirements file provides the Python dependencies required by the utility scripts in this repository.
+
+```bash
+pip install -r requirements.txt
+```
+
+### External Software
+
+The CranioCapture workflow additionally relies on the following external software:
+
+- FFmpeg
+- COLMAP
+- 2D Gaussian Splatting
+
+### Recommended Environment
+
+- Windows 11 / Ubuntu 22.04 (WSL)
+- Python 3.10+
+- CUDA 11.8+
+- NVIDIA GPU (recommended)
+
 
 ## Phase 1. Smartphone Video Acquisition
 The patient is seated in a natural head position while a smartphone is moved along an inverse S-shaped trajectory around the face.
@@ -112,3 +137,23 @@ The reconstructed model is calibrated to a real-world metric scale using a refer
 **Related Script**
 
 [`Clinical_Measurement_GUI.py`](scripts/Clinical_Measurement_GUI.py)
+
+## Repository Structure
+
+```text
+CranioCapture/
+├── docs/
+│   ├── images/
+│   ├── gifs/
+│   └── mp4/
+├── scripts/
+│   ├── Extract_Frames.py
+│   ├── Generate_Headneck_Masks.py
+│   └── Clinical_Measurement_GUI.py
+├── requirements.txt
+├── LICENSE
+└── README.md
+
+## Notes
+
+This repository currently provides the workflow scripts, visual demonstrations, and documentation for CranioCapture. The associated manuscript is under preparation.
