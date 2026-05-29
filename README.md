@@ -1,3 +1,4 @@
+> 🔒 **Data Privacy & Compliance Notice:** This pipeline is engineered for **100% offline edge computing**. All tracking, feature matting, 2DGS training, and physical metric calibration are executed locally on consumer-grade hardware. Zero facial biometrics or sensitive patient data are transmitted to cloud-based services, ensuring full alignment with strict data governance frameworks (e.g., European Union AI Act for high-risk medical AI).
 This repository provides the implementation and supplementary materials associated with the manuscript:
 
 **A Locally Deployable Smartphone-Video Pipeline for Scalable 3D Craniofacial Assessment in Low-Resource Clinical Settings**
@@ -82,7 +83,7 @@ Video frames are extracted from the recorded smartphone video. A foreground matt
 [`Generate_Headneck_Masks.py`](scripts/Generate_Headneck_Masks.py)
 
 
-## Phase 3. COLMAP-Based Camera Pose Estimation and Sparse Reconstruction [WSL / Linux]
+## Phase 3. COLMAP-Based Camera Pose Estimation and Sparse Reconstruction 
 
 COLMAP is used to estimate camera poses and generate a sparse 3D reconstruction from multi-view facial images.
 
@@ -104,7 +105,7 @@ COLMAP is used to estimate camera poses and generate a sparse 3D reconstruction 
 Feature Extraction → Feature Matching → Camera Pose Estimation → Sparse Reconstruction
 </p>
 
-## Phase 4. 2D Gaussian Splatting Reconstruction
+## Phase 4. 2D Gaussian Splatting Reconstruction [WSL / Linux]
 
 The masked multi-view images and COLMAP-derived camera parameters are used as input for 2D Gaussian Splatting reconstruction.
 
