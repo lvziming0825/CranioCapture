@@ -42,3 +42,11 @@ A 5-second demonstration of the smartphone video acquisition procedure.
 </tr>
 </table>
 
+
+## Phase 2. Frame Extraction and Foreground Masking
+
+Video frames are extracted from the recorded smartphone video. A foreground matting model is subsequently applied to remove background structures and generate patient-specific facial masks.
+
+<p align="center">
+  <img src="docs/images/frame_masking.jpg" width="90%">
+</p>
