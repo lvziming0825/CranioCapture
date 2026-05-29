@@ -82,7 +82,7 @@ Video frames are extracted from the recorded smartphone video. A foreground matt
 [`Generate_Headneck_Masks.py`](scripts/Generate_Headneck_Masks.py)
 
 
-## Phase 3. COLMAP-Based Camera Pose Estimation and Sparse Reconstruction
+## Phase 3. COLMAP-Based Camera Pose Estimation and Sparse Reconstruction [WSL / Linux]
 
 COLMAP is used to estimate camera poses and generate a sparse 3D reconstruction from multi-view facial images.
 
