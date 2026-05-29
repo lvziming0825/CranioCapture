@@ -42,9 +42,6 @@ A 5-second demonstration of the smartphone video acquisition procedure.
 </tr>
 </table>
 
-**Related Script**
-
-[`Extract_Frames.py`](scripts/Extract_Frames.py)
 
 ## Phase 2. Frame Extraction and Foreground Masking
 
@@ -55,5 +52,7 @@ Video frames are extracted from the recorded smartphone video. A foreground matt
 </p>
 
 **Related Script**
+
+[`Extract_Frames.py`](scripts/Extract_Frames.py)
 
 [`Generate_Headneck_Masks.py`](scripts/Generate_Headneck_Masks.py)
