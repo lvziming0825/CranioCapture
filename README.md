@@ -13,11 +13,24 @@ The workflow includes:
 7. Quantitative evaluation
 
 
-## 1. Smartphone Video Acquisition
+## Phase 1. Smartphone Video Acquisition
 The patient is seated in a natural head position while a smartphone is moved along an inverse S-shaped trajectory around the face.
 
 A 5-second demonstration of the smartphone video acquisition procedure.
 
-<p align="center">
-  <img src="docs/gifs/github_demo_5s.gif" width="200">
-</p>
+<table border="0">
+<tr>
+
+<td width="75%" align="center" valign="middle">
+<b>Workflow</b><br><br>
+<img src="docs/images/data_acquisition.jpg" width="100%">
+</td>
+
+<td width="25%" align="center" valign="middle">
+<b>5-second Demo</b><br><br>
+<img src="docs/gifs/github_demo_5s.gif" width="200">
+</td>
+
+</tr>
+</table>
+
