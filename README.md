@@ -1,6 +1,3 @@
-# CranioCapture
-A locally deployable smartphone-video pipeline for 3D craniofacial reconstruction using COLMAP and 2D Gaussian Splatting.
-
 This repository provides the implementation and supplementary materials associated with the manuscript:
 
 **A Locally Deployable Smartphone-Video Pipeline for Scalable 3D Craniofacial Assessment in Low-Resource Clinical Settings**
