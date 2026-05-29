@@ -20,4 +20,4 @@ A 5-second demonstration of the smartphone video acquisition procedure.
 
 🎥 Demo Video:
 
-[Watch the acquisition demo](docs/mp4/github_demo_5s.mp4)
+[Watch the acquisition demo](docs/mp4/github_demo_5s.gif)
