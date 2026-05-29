@@ -95,3 +95,20 @@ Input → COLMAP cameras + masked RGB images
 <p align="center">
 Output → 2DGS model, rendered views, and reconstructed mesh
 </p>
+
+
+## Phase 5. Metric Calibration
+
+The reconstructed model is calibrated to a real-world metric scale using a reference object with known dimensions. This step enables quantitative measurements to be reported in millimeters rather than arbitrary reconstruction units.
+
+<p align="center">
+  <img src="docs/images/Metric_calibration.jpg" width="90%">
+</p>
+
+**Input → Reconstructed mesh + reference object**
+
+**Output → Metric-scaled 3D model and quantitative measurements**
+
+**Related Script**
+
+[`Clinical_Measurement_GUI.py`](scripts/Clinical_Measurement_GUI.py)
