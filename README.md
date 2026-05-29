@@ -12,31 +12,6 @@ The workflow includes:
 6. Quantitative evaluation
 
 
-## Environment Setup
-
-### Python Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### External Software
-
-The CranioCapture workflow additionally relies on the following external software:
-
-- FFmpeg
-- COLMAP
-- 2D Gaussian Splatting
-
-### Recommended Environment
-
-- Windows 11 / Ubuntu 22.04 (WSL)
-- Python 3.10+
-- CUDA 11.8+
-- NVIDIA GPU (recommended)
-```
-
-
 ## Phase 1. Smartphone Video Acquisition
 The patient is seated in a natural head position while a smartphone is moved along an inverse S-shaped trajectory around the face.
 
