@@ -50,3 +50,9 @@ Video frames are extracted from the recorded smartphone video. A foreground matt
 <p align="center">
   <img src="docs/images/frame_masking.jpg" width="90%">
 </p>
+
+**Related Script**
+
+[`Extract_Frames.py`](scripts/Extract_Frames.py)
+
+[`Generate_Headneck_Masks.py`](scripts/Generate_Headneck_Masks.py)
