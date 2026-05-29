@@ -105,7 +105,7 @@ The reconstructed model is calibrated to a real-world metric scale using a refer
   <img src="docs/images/Metric_calibration.jpg" width="90%">
 </p>
 
-**Input → Reconstructed mesh + reference object**
+**Input → Reconstructed mesh + reference scale**
 
 **Output → Metric-scaled 3D model and quantitative measurements**
 
